@@ -1,2 +1,1 @@
-# Bikash.Ghimire
-Personal Website
+# Bikash Ghimire
