@@ -7,27 +7,48 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #222;
-      text-align: center;
+      background-color: #f5f7fa;
+      color: #333;
       margin: 0;
       padding: 0;
     }
 
-    h1 {
-      background-color: #222;
-      color: #fff;
-      padding: 20px 0;
-      margin: 0;
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
     }
 
-    .contact-container {
-      margin-top: 50px;
+    nav {
+      background-color: #0055aa;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     .contact-item {
-      margin: 15px 0;
-      font-size: 18px;
+      margin: 1rem 0;
+      font-size: 1.1rem;
     }
 
     a {
@@ -38,31 +59,49 @@
     a:hover {
       text-decoration: underline;
     }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #003366;
+      color: white;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
 
-  <h1>Contact</h1>
+  <header>
+    <h1>Bikash Ghimire</h1>
+    <p>Graduate Research Assistant | GIS & Plant Science Enthusiast</p>
+  </header>
 
-  <div class="contact-container">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Contact</h2>
     <div class="contact-item">
-      📧 <strong>Email:</strong>
-      <a href="mailto:bikashghimire.f@gmail.com">bikashghimire.f@gmail.com</a>
+      📧 <strong>Email:</strong> <a href="mailto:bikashghimire.f@gmail.com">bikashghimire.f@gmail.com</a>
     </div>
-
     <div class="contact-item">
-      💻 <strong>GitHub:</strong>
-      <a href="https://github.com/bikash9814" target="_blank">github.com/bikash9814</a>
+      💻 <strong>GitHub:</strong> <a href="https://github.com/bikash9814" target="_blank">github.com/bikash9814</a>
     </div>
-
     <div class="contact-item">
       🔗 <strong>LinkedIn:</strong>
       <a href="https://www.linkedin.com/in/bikash-ghimire-23b100323/" target="_blank">
         linkedin.com/in/bikash-ghimire-23b100323
       </a>
     </div>
-  </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Bikash Ghimire</p>
+  </footer>
 
 </body>
 </html>
-
