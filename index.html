@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bikash Ghimire | Personal Website</title>
   <style>
     body {
@@ -12,33 +12,63 @@
       background: #f5f7fa;
       color: #333;
     }
+
     header {
       background-color: #003366;
       color: white;
       text-align: center;
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 1rem 1rem;
     }
+
+    nav {
+      background-color: #00264d;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      margin: 0 0.5rem;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #004c99;
+    }
+
     section {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 1rem;
+      padding: 1.5rem;
       background: white;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
     h1, h2 {
       color: #003366;
     }
+
     a {
       color: #0066cc;
       text-decoration: none;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer {
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
       background: #003366;
       color: white;
+      margin-top: 2rem;
     }
   </style>
 </head>
@@ -49,10 +79,17 @@
     <p>Graduate Research Assistant | GIS & Plant Science Enthusiast</p>
   </header>
 
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
   <section>
     <h2>About Me</h2>
     <p>
-      I am a master's student in Plant and Soil Science at Alabama A&M University. 
+      I am a master's student in Plant and Soil Science at Alabama A&M University.
       My research focuses on crop water stress monitoring, GIS modeling, and sustainable forest management.
     </p>
   </section>
@@ -78,5 +115,29 @@
     <p>© 2025 Bikash Ghimire</p>
   </footer>
 
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head> ... (same head code) ... </head>
+<body>
+  <header>
+    <h1>Bikash Ghimire</h1>
+    <p>Graduate Research Assistant | GIS & Plant Science Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>My Research</h2>
+    <p>Details about evapotranspiration mapping, CWSI, and UAV data analysis...</p>
+  </section>
+
+  <footer>© 2025 Bikash Ghimire</footer>
 </body>
 </html>
